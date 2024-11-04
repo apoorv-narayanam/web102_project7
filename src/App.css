@@ -1,0 +1,77 @@
+/* App.css */
+body {
+  background-color: #1c1c1c;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.sidebar {
+  background-color: #4a4a4a;
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  padding: 20px;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.sidebar img {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.main-content {
+  margin-left: 220px;
+  padding: 40px;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+button {
+  background-color: #333333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555555;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-box {
+  background-color: #4a4a4a;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input, select {
+  width: calc(100% - 20px);
+  padding: 10px;
+}
+
+
+.crewmate-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, auto));
+  gap: 20px;
+}
+
+.crewmate-card {
+  background-color: #4a4a4a;
+  padding: 20px;
+  border-radius: 10px;
+}
